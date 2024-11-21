@@ -13,7 +13,7 @@ $CONNEXION = new mysqli($host,$usename,$password,$DB_name);
 
 // VERIFICATION DE LA CONNEXION
  if($CONNEXION === false) {
-    die("Connexion Echouée :". $connexion->connect_error);
+    die("Connexion Echouée :". $CONNEXION->connect_error);
  }
 
 
